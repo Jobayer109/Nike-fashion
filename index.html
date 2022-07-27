@@ -5,12 +5,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Okobee Fashion</title>
+    <title>Penguin Fashion</title>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/2cbce98b90.js" crossorigin="anonymous"></script>
+    <!-- custom CSS  -->
     <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap css  -->
     <link rel="stylesheet" href="./bootstrap.min.css">
 </head>
 
 <body>
+    <!-- header start -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg mt-3">
+            <div class="container">
+                <img class="image-fluid w-25" src="./icons/Logo.png" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse   justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold" href="#contact us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="banner-section">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between mt-5 p-5">
+                    <div>
+                        <h1 class="fs-1 fw-bold"> <span class="banner-title-up">NIKE REACT</span> <br> <span
+                                class="banner-title-down">INFINITY RUN 2</span> </h1>
+                        <p class="fw-normal mt-3 mb-4">Lorem Ipsum is simply dummy text of the printing <br>
+
+                            and typesetting industry.</p>
+                        <button class="btn button-bg text-white px-4 py-3"><i class="fa-solid fa-cart-shopping"></i> BUY
+                            NOW</button>
+                    </div>
+                    <img class="w-50" src="./images/Group 33092.png" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- header end -->
+    <!-- main start  -->
+    <main>
+        <!-- Casual shoes section start  -->
+        <section class="casual-shoes-section">
+            <div class="container">
+                <h2>CASUAL SHOES</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 p-3">
+                            <img class="card-img-top bg-light border rounded" src="./images/casual-1.png" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="./images/casual-2.png" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a short card.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="./images/casual-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Casual shoes section end -->
+    </main>
+    <!-- main end -->
+
     <script src="./bootstrap.min.js"></script>
 </body>
 

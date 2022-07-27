@@ -1,0 +1,15 @@
+.banner-title-up {
+    color: #FA804C;
+}
+
+.banner-title-down {
+    color: #363958;
+}
+
+.button-bg {
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+}
+.banner-background{
+    color: #FFF9F4;
+}
