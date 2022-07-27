@@ -10,6 +10,11 @@
     background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
     border-radius: 10px;
 }
-.banner-background{
+
+.banner-background {
     color: #FFF9F4;
+}
+
+.casual-shoes-bg {
+    background-color: #ebeae5;
 }
