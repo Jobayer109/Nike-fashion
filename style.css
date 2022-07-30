@@ -15,18 +15,20 @@
     color: #FFF9F4;
 }
 
-.casual-shoes-bg {
-    background-color: #ebeae5;
-}
-
-.contact-icon {
-    height: 110px;
-    width: 110px;
-}
-
 .banner-bg-image {
-    background-image: url(images/black-and-gray-wave-abstract-background-free-vector.png);
+    background-image: url(images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.casual-shoes-img {
+    width: 280px;
+    height: 300px;
+
+}
+
+.service-icon {
+    height: 100px;
+    width: 100px;
 }
